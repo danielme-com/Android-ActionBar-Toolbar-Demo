@@ -1,10 +1,22 @@
 <?xml version="1.0" encoding="utf-8"?>
-<resources>
+<resources xmlns:tools="http://schemas.android.com/tools">
 
     <style name="AppTheme" parent="Theme.AppCompat.Light.NoActionBar">
         <item name="colorPrimary">@color/primary</item>
         <item name="colorPrimaryDark">@color/primaryDark</item>
         <item name="android:textColorPrimary">@color/textColorPrimary</item>
+        <item name="popupTheme">@style/PopupTheme</item>
+    </style>
+
+    <style name="PopupTheme" parent="Theme.AppCompat.Light">
+        <!--<item name="actionOverflowMenuStyle">@style/OverflowMenu</item>-->
+        <!--https://github.com/danielme-com/-Android-popup-menu- -Support-library/blob/master/res/values/styles.xml-->
+    </style>
+
+    <!-- displays the overflow menu below the toolbar-->
+    <style name="OverflowMenu" parent="Widget.AppCompat.Light.PopupMenu.Overflow">
+        <item name="android:dropDownVerticalOffset">-4dp</item>
+        <item name="overlapAnchor">false</item>
     </style>
 
 </resources>
