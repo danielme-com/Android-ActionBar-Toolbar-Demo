@@ -12,6 +12,11 @@
         android:layout_width="match_parent"
         android:minHeight="?attr/actionBarSize"
         android:background="?attr/colorPrimary"
-        app:theme="@style/ThemeOverlay.AppCompat.ActionBar" />
+        android:elevation="@dimen/elevation"
+        app:theme="@style/ThemeOverlay.AppCompat.Dark.ActionBar"
+        tools:ignore="UnusedAttribute"/>
+
+    <!--app:navigationIcon="?attr/homeAsUpIndicator"-->
+
 
 </LinearLayout>

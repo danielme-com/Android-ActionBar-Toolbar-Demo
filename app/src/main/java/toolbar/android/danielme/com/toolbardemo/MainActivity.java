@@ -22,9 +22,7 @@ public class MainActivity extends AppCompatActivity {
         setSupportActionBar(toolbar);
         //getSupportActionBar().setTitle(null);
 
-        /*toolbar.setNavigationIcon(ContextCompat.getDrawable(this,
-                R.drawable.abc_ic_ab_back_mtrl_am_alpha));
-        toolbar.setNavigationOnClickListener(new View.OnClickListener() {
+        /*toolbar.setNavigationOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
                 Toast.makeText(MainActivity.this, R.string.up, Toast.LENGTH_SHORT).show();
