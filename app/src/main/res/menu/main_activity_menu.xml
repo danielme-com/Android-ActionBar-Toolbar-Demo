@@ -6,13 +6,13 @@
 
     <item
         android:id="@+id/action_add"
-        android:icon="@mipmap/ic_action_new"
+        android:icon="@drawable/ic_action_new"
         android:title="@string/action_add"
         app:showAsAction="always" />
 
     <item
         android:id="@+id/action_edit"
-        android:icon="@mipmap/ic_action_edit"
+        android:icon="@drawable/ic_action_edit"
         android:title="@string/action_edit"
         app:showAsAction="ifRoom" />
 
