@@ -2,6 +2,7 @@
 
 <resources>
     <string name="app_name">Toolbar Demo</string>
+    <string name="app_subtitle">danielme.com</string>
     <string name="up">up</string>
     <string name="action_add">Add</string>
     <string name="action_edit">Edit</string>
