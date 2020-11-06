@@ -1,4 +1,4 @@
-package toolbar.android.danielme.com.toolbardemo;
+package com.danielme.toolbardemo;
 
 import android.os.Bundle;
 import android.support.v7.app.AppCompatActivity;

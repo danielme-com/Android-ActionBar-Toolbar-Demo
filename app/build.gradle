@@ -4,7 +4,7 @@ android {
     compileSdkVersion 28
 
     defaultConfig {
-        applicationId "toolbar.android.danielme.com.toolbardemo"
+        applicationId "com.danielme.toolbardemo"
         minSdkVersion 19
         targetSdkVersion 28
         versionCode 1
